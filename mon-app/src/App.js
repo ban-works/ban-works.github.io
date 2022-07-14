@@ -25,8 +25,8 @@ function App() {
           <img style={{marginRight: '10px'}} width="50px" src="./images/redux.png"/>
           <img width="50px" src="./images/mongodb.png"/>
           </Col>
-          <Col xs="12" style={{ marginTop: '10px'}}>
-          <p style={{textAlign: 'justify', maxWidth: '50%'}}>Passionné par le numérique grâce à mes précédentes expériences en startup,  
+          <Col xs="12" md="6" style={{ marginTop: '10px'}}>
+          <p style={{textAlign: 'justify'}}>Passionné par le numérique grâce à mes précédentes expériences en startup,  
           j’ai suivi le bootcamp La Capsule en 2022 afin de me former à la programmation. 
           <span style={{fontWeight:'bold'}}>Je recherche actuellement mon premier CDI en tant que junior</span>, de préférence sur des frameworks JS mais je reste ouvert à d’autres langages comme Java et PhP. </p>
           
