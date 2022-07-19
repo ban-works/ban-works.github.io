@@ -194,7 +194,7 @@ function App() {
                 <CardText>
                 <span style={{fontWeight:"bold"}}>Technos :</span><br/>
                    <Badge className="mx-1" color="primary">Wordpress</Badge>
-                   <Badge className="mx-1" color="warning">Googe Analytics</Badge>
+                   <Badge className="mx-1" color="warning">Google Analytics</Badge>
                    </CardText>
                 <CardBody>
                   <CardTitle tag="h5">DMB Brasserie</CardTitle>
