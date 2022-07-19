@@ -172,7 +172,7 @@ function App() {
                    </CardText>
                 <CardBody>
                   <CardTitle tag="h5">Ticketac</CardTitle>
-                  <CardText>Hackaton en duo avec <a>Xavier Mélinand</a>. Front & Back réalisés en 2 jour.</CardText>
+                  <CardText>Hackaton en duo avec <a href="https://www.linkedin.com/in/xavier-melinand-169306238/">Xavier Mélinand</a>. Front & Back réalisés en 2 jour.</CardText>
                   <Button
                     target="_blank"
                     href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6949478093929525248?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post"
