@@ -149,6 +149,11 @@ function Git() {
         Commandes utiles :
       </p>
       <p style={{ backgroundColor: "ghostwhite" }}>
+        git branch -m main 
+        <span style={{ color: "grey" }}>
+          // Donner le nom main à sa branche master
+        </span>
+        <br/>
         git status{" "}
         <span style={{ color: "grey" }}>
           // Voir les fichiers modifiés non commit
@@ -593,6 +598,26 @@ function ReactNative() {
       <p style={{ backgroundColor: "ghostwhite" }}>
       expo install expo-camera 
       </p>
+      <p style={{ marginBottom: "2px", fontWeight: "bold" }}>
+        Mise en place d'expo file system, uniqid et Cloudinary
+      </p>
+      <p style={{ backgroundColor: "ghostwhite" }}>
+      <span style={{color:"grey"}}> //Toutes les installations se font dans le backend le backend :</span>
+        <br/>
+      npm install --save express-fileupload 
+      <br/>
+      <span style={{color:"grey"}}> //Dans app.js {"(backend)"} :</span>
+     <br/>
+     {"var fileUpload = require('express-fileupload');"}
+     <span style={{color:"grey"}}> // app.js ligne 1 </span>
+     <br/>
+     {"app.use(fileUpload());"}
+     <span style={{color:"grey"}}> // app.js, après {"var app = express()"} </span>
+     <br/>
+     npm install --save uniqid <span style={{color:"grey"}}> // Permet de générer un id unique </span>
+     <br/>
+     npm install --save cloudinary
+      </p>
       <p style={{ marginBottom: "2px", fontWeight: "bold" }}> Liens Ariane expo init my-project —npm:</p>
       <a
         target="_blank"
@@ -640,7 +665,20 @@ function ReactNative() {
       >
         Week 8 > Day 2 > La Caméra
       </a>
-      
+      <a
+        target="_blank"
+        href="https://ariane.lacapsule.academy/batch/slide/5c74f58441edc20022f65f73
+        "
+      >
+        Week 8 > Day 3 > Backend : Réception de fichier
+      </a>
+      <a
+        target="_blank"
+        href="https://ariane.lacapsule.academy/batch/slide/5c4975ef1902aae85e4b8522
+        "
+      >
+        Week 8 > Day 3 > Cloudinary
+      </a>
 
     </Row>
   );
@@ -718,6 +756,8 @@ function Post() {
         display: "flex",
         justifyContent: "center",
         backgroundColor: "ghostwhite",
+        minHeight: "100vh",
+
       }}
     >
       <Col xs="12" style={{ marginBottom: "10px", marginTop: "10px" }}>

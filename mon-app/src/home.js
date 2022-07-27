@@ -81,14 +81,14 @@ function Home() {
                 <Col md="8">
                   <p style={{ textAlign: "justify" }}>
                     Passionné par le numérique grâce à mes précédentes
-                    expériences en startup, j’ai suivi le bootcamp La Capsule en
+                    expériences en startup, j'ai suivi le bootcamp La Capsule en
                     2022 afin de me former à la programmation.
                     <span style={{ fontWeight: "bold" }}>
                       Je recherche actuellement mon premier CDI en tant que
-                      junior
+                    
                     </span>
                     , de préférence sur des frameworks JS mais je reste ouvert à
-                    d’autres langages comme Java et PhP.{" "}
+                    d'autres langages comme Java et PhP.{" "}
                   </p>
                   <div style={{backgroundColor: "ghostwhite", padding: "10px", marginBottom: "10px"}}>
         <span style={{ fontSize: "20px", paddingRight: "10px" }}>📄</span>
