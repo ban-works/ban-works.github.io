@@ -85,7 +85,7 @@ function Git() {
           // Lister l'ensemble des branches
         </span>{" "}
         <br />
-        git branch checkout yourbranchname{" "}
+        git checkout yourbranchname{" "}
         <span style={{ color: "grey" }}>// Basculer sur une branche</span>{" "}
         <br />
         git merge yourbranchtomerge
@@ -618,6 +618,12 @@ function ReactNative() {
      <br/>
      npm install --save cloudinary
       </p>
+      <p style={{ marginBottom: "2px", fontWeight: "bold" }}>
+        Installation de sync-request pour utiliser Face API {'(Reconnaissance faciale)'}:
+      </p>
+      <p style={{ backgroundColor: "ghostwhite" }}>
+      npm install --save sync-request
+            </p>
       <p style={{ marginBottom: "2px", fontWeight: "bold" }}> Liens Ariane expo init my-project —npm:</p>
       <a
         target="_blank"
@@ -678,6 +684,14 @@ function ReactNative() {
         "
       >
         Week 8 > Day 3 > Cloudinary
+      </a>
+      <a
+        target="_blank"
+        href="      https://ariane.lacapsule.academy/batch/slide/5c31f53f0ee6d60015de878a
+
+        "
+      >
+        Week 8 > Day 4 > Reconnaissance faciale
       </a>
 
     </Row>
