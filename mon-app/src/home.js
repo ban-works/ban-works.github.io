@@ -73,31 +73,14 @@ function Home() {
                 <Col md="8">
                   <p style={{ textAlign: "justify" }}>
                     Passionné par le numérique grâce à mes précédentes
-                    expériences en startup, j'ai suivi le bootcamp La Capsule en
-                    2022 afin de me former à la programmation.
-                    <span style={{ fontWeight: "bold" }}>
-                      Je recherche actuellement mon premier CDI en tant que
-                    </span>
-                    , de préférence sur des frameworks JS mais je reste ouvert à
-                    d'autres langages comme Java et PhP.{" "}
-                  </p>
-                  <div
-                    style={{
-                      backgroundColor: "ghostwhite",
-                      padding: "10px",
-                      marginBottom: "10px",
-                    }}
-                  >
-                    <span style={{ fontSize: "20px", paddingRight: "10px" }}>
-                      📄
-                    </span>
-                    <a
-                      target="_blank"
-                      href="https://drive.google.com/file/d/1SjLx734w34OaoU684A7ppGIRSP4FYmM6/view?usp=sharing"
-                    >
-                      Consultez mon CV
-                    </a>
-                  </div>
+                    expériences en startup, je développe des applications web et mobile en JavaScript.
+                 </p>
+                 <Button
+                href="https://www.linkedin.com/in/alban-fresil/"
+                style={{ backgroundColor: "black" }}
+              >
+                💬 On discute ?️
+              </Button>
                 </Col>
                 <Col md="4">
                   <img
@@ -116,12 +99,7 @@ function Home() {
                 marginBottom: "10px",
               }}
             >
-              <Button
-                href="https://www.linkedin.com/in/alban-fresil/"
-                style={{ backgroundColor: "black" }}
-              >
-                💬 On discute ?️
-              </Button>
+             
             </Col>
           </Row>
           <Row style={{ marginTop: "30px" }}>
